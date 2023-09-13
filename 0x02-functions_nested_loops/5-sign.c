@@ -8,21 +8,21 @@
 
 int print_sign(int n)
 {
-int o;
+int n;
         if (n > 0)
         {
 		_putchar('+');
-		o=(1);
+		n=(1);
         }
         else if (n == 0)
         {
                 _putchar('0');
-		o=(0);
+		n=(0);
         }
         else if (n < 0)
         {
                 _putchar('-');
-                o=(-1);
+                n=(-1);
         }
-	return (o)
+	return (o);
 }
