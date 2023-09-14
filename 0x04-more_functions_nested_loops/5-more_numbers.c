@@ -5,17 +5,24 @@
  *	can only use _putchar three times
  *
  * Return: Always 0 (Success)
- */
+*/
+
 void more_numbers(void)
 {
-	int i, j;
+	int i;
 
 	for (i = 0; i < 10; i++)
 	{
-		for (j = 0; j < 15; j++)
-		{
-			_putchar(j + '0');
-		}
-		_putchar('\n');
+		putchar('0' + i);
+		putchar('1' + i);
+		putchar('2' + i);
+		putchar('3' + i);
+		putchar('4' + i);
+		putchar('5' + i);
+		putchar('6' + i);
+		putchar('7' + i);
+		putchar('8' + i);
+		putchar('9' + i);
+		putchar('\n');
 	}
 }
