@@ -1,8 +1,8 @@
 #ifndef LISTS_H
 #define LISTS_H
 
-1#include <stdio.h>
-2#include <stdlib.h>
+#include <stdio.h>
+#include <stdlib.h>
  
 /**
 * struct listint_s - singly linked list
@@ -11,7 +11,7 @@
 *
 * Description: New task more singly linked node
 */
-11typedef struct listint_s
+typedef struct listint_s
 {
    int n;
    struct listint_s *next;
